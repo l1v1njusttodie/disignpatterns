@@ -5,8 +5,8 @@ import java.util.List;
 
 public class AnimeSite implements Publisher {
 
-    List<Subscriber> subscribers = new ArrayList<>();;
-    List<String> animes = new ArrayList<>();;
+    List<Subscriber> subscribers = new ArrayList<>();
+    List<String> animes = new ArrayList<>();
 
 
     public void addAnime(String anime) {
